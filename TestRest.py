@@ -43,7 +43,7 @@ class MyRequest:
 
 @pytest.fixture()
 def data():
-    data = MyRequest('https://google.com')
+    data = MyRequest('https://google.com','get')
     return data
 
 
